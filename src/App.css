@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 400px;
+  width: 100%;
+}
+
+.chart-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+
+.loading,
+.error {
+  font-size: 18px;
+  color: #555;
+  margin: 20px 0;
+}
+
+.error {
+  color: #d9534f;
+}
